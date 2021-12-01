@@ -1,0 +1,71 @@
+#titulo{
+    color: tomato;
+}
+
+p.especial{
+    color: mediumseagreen;
+}
+
+p.texto{
+    color: slateblue;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3 {
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    color: black;
+}
+
+/* Esto es un comentario */
+
+/* Esto es un comentario
+    que tiene muchas
+    lineas*/
+
+/* -HEX-
+    .color{
+        color: #ff0000;
+    }
+
+    -RGB-
+       .color{
+        color: rgb(0, 0, 255)
+    }
+    */
+
+    .color{
+       /*  border: 5px red solid; */
+    /* 
+        dotted
+        dashed
+        solid
+        double
+        groove _3D bevel
+        ridge  _3D bevel
+        inset  _3D bevel
+        outset _3D bevel
+        none
+        hidden
+        */
+        border-style: solid;
+        border-color: blue;
+        border-radius: 5px;
+        border-width:  2rem; 
+    }
+
+    #fondo {
+        background-color: rgba(255,0,0);
+       /*  opacity: 0.3; */
+       height: 200px;
+        background-image: url('RV.png');
+        background-size: 400px 400px;
+    }
+
+ 
